@@ -1,0 +1,25 @@
+{
+  "page": 0,
+  "pageSize": 2147483647,
+  "totalPageCount": 1,
+  "wkda": {
+    "Applause": "Applause",
+    "Charade": "Charade",
+    "Charmant": "Charmant",
+    "Copen": "Copen",
+    "Cuore": "Cuore",
+    "Feroza": "Feroza",
+    "Gran Move": "Gran Move",
+    "Hijet": "Hijet",
+    "Materia": "Materia",
+    "Move": "Move",
+    "Rocky": "Rocky",
+    "Sirion": "Sirion",
+    "Sparcar S 75": "Sparcar S 75",
+    "Sparcar S 76 4WD": "Sparcar S 76 4WD",
+    "Terios": "Terios",
+    "Trevis": "Trevis",
+    "Wildcat 4X4": "Wildcat 4X4",
+    "YRV": "YRV"
+  }
+}

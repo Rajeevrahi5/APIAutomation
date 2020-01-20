@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: APITestAuto.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: API Automation With REST Assured</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: API Test - Get Manufacturer List</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: API Test - Get Manufacturer List</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user hits the Root URL with &quot;&lt;Manufacturer Endpoint&gt;&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Manufacturer Code with Name is listed and Status code is verified (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: API Test - Get main-types list for a manufacturer</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: API Test - Get main-types list for a manufacturer</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user hits the Root URL with &quot;v1&#x2F;car-types&#x2F;manufacturer&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Manufacturer Code with Name is listed and Status code is verified (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user hits the Root URL with &quot;&lt;Main-types Endpoint&gt;&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: API Test - Get built-dates list of cars</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: API Test - Get built-dates list of cars</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  &quot;&lt;Manufacturer Code&gt;&quot; is passed as parameter (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  All the modals of manufacturer is listed and Status code is verified (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user hits the Root URL with &quot;v1&#x2F;car-types&#x2F;main-types&quot; (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="API Regression Suite" duration-ms="2267" started-at="2020-01-18T21:52:04 CET" finished-at="2020-01-18T21:52:06 CET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:testRunners.TestRunner@7823a2f9]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="API Regression Test" duration-ms="2267" started-at="2020-01-18T21:52:04 CET" finished-at="2020-01-18T21:52:06 CET">
+      <class name="testRunners.TestRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:testRunners.TestRunner@7823a2f9]" name="run_cukes" duration-ms="2242" started-at="2020-01-18T21:52:04 CET" description="Runs Cucumber Features" finished-at="2020-01-18T21:52:06 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: APITestAuto.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: API Automation With REST Assured</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: API Test - Get Manufacturer List</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: API Test - Get Manufacturer List</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user hits the Root URL with &quot;&lt;Manufacturer Endpoint&gt;&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Manufacturer Code with Name is listed and Status code is verified (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: API Test - Get main-types list for a manufacturer</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: API Test - Get main-types list for a manufacturer</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user hits the Root URL with &quot;v1&#x2F;car-types&#x2F;manufacturer&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Manufacturer Code with Name is listed and Status code is verified (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user hits the Root URL with &quot;&lt;Main-types Endpoint&gt;&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: API Test - Get built-dates list of cars</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: API Test - Get built-dates list of cars</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  &quot;&lt;Manufacturer Code&gt;&quot; is passed as parameter (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  All the modals of manufacturer is listed and Status code is verified (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user hits the Root URL with &quot;v1&#x2F;car-types&#x2F;main-types&quot; (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- testRunners.TestRunner -->
+    </test> <!-- API Regression Test -->
+  </suite> <!-- API Regression Suite -->
+</testng-results>

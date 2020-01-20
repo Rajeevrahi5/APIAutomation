@@ -1,0 +1,648 @@
+2020-01-19 11:06:35 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get Manufacturer List                                             
++***************************************************************************************************
+
+
+2020-01-19 11:06:35 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/manufacturer with manufacturer endpoint is launched.
+
+
+2020-01-19 11:06:36 INFO  AutoRESTAssuredTestSteps:32 - Manufacturer List:
+{
+    "page": 0,
+    "pageSize": 2147483647,
+    "totalPageCount": 1,
+    "wkda": {
+        "020": "Abarth",
+        "040": "Alfa Romeo",
+        "042": "Alpina",
+        "057": "Aston Martin",
+        "060": "Audi",
+        "095": "Barkas",
+        "107": "Bentley",
+        "130": "BMW",
+        "125": "Borgward",
+        "145": "Brilliance",
+        "141": "Buick",
+        "150": "Cadillac",
+        "157": "Caterham",
+        "160": "Chevrolet",
+        "170": "Chrysler",
+        "190": "Citroen",
+        "191": "Corvette",
+        "189": "Cupra",
+        "194": "Dacia",
+        "195": "Daewoo",
+        "210": "Daihatsu",
+        "230": "Dodge",
+        "235": "DS Automobiles",
+        "250": "e.GO",
+        "277": "Ferrari",
+        "280": "Fiat",
+        "285": "Ford",
+        "340": "Honda",
+        "345": "Hyundai",
+        "357": "Infiniti",
+        "362": "Isuzu",
+        "365": "Iveco",
+        "380": "Jaguar",
+        "390": "Jeep",
+        "425": "Kia",
+        "460": "Lada",
+        "465": "Lamborghini",
+        "470": "Lancia",
+        "730": "Land Rover",
+        "487": "Lexus",
+        "502": "Lotus",
+        "520": "MAN",
+        "522": "Maserati",
+        "530": "Maybach",
+        "550": "Mazda",
+        "570": "Mercedes-Benz",
+        "070": "MG Rover",
+        "580": "MINI",
+        "590": "Mitsubishi",
+        "225": "Nissan",
+        "650": "Opel",
+        "670": "Peugeot",
+        "895": "Piaggio (Vespa)",
+        "700": "Pontiac",
+        "710": "Porsche",
+        "715": "Proton",
+        "720": "Renault",
+        "727": "Rolls Royce",
+        "071": "Rover",
+        "740": "Saab",
+        "790": "Seat",
+        "800": "Skoda",
+        "560": "Smart",
+        "810": "Ssangyong",
+        "826": "StreetScooter",
+        "820": "Subaru",
+        "830": "Suzuki",
+        "850": "Tata",
+        "853": "Tesla",
+        "860": "Toyota",
+        "865": "Trabant",
+        "870": "Triumph",
+        "905": "Volkswagen",
+        "910": "Volvo",
+        "930": "Wartburg",
+        "935": "Westfield",
+        "960": "Zastava"
+    }
+}
+2020-01-19 11:06:36 INFO  AutoRESTAssuredTestSteps:35 - 
+Status Code: 200 is verified.
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:38 - 
+The Schema of Response is verified.
+
+
+2020-01-19 11:06:37 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get Manufacturer List                                                    
+***************************************************************************************************
+
+
+2020-01-19 11:06:37 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get main-types list for a manufacturer                                             
++***************************************************************************************************
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/main-types with manufacturer endpoint is launched.
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:47 - 
+Manufacturer Code 210 is  passed: 
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:50 - 
+Manufacturer Details
+{
+    "page": 0,
+    "pageSize": 2147483647,
+    "totalPageCount": 1,
+    "wkda": {
+        "Applause": "Applause",
+        "Charade": "Charade",
+        "Charmant": "Charmant",
+        "Copen": "Copen",
+        "Cuore": "Cuore",
+        "Feroza": "Feroza",
+        "Gran Move": "Gran Move",
+        "Hijet": "Hijet",
+        "Materia": "Materia",
+        "Move": "Move",
+        "Rocky": "Rocky",
+        "Sirion": "Sirion",
+        "Sparcar S 75": "Sparcar S 75",
+        "Sparcar S 76 4WD": "Sparcar S 76 4WD",
+        "Terios": "Terios",
+        "Trevis": "Trevis",
+        "Wildcat 4X4": "Wildcat 4X4",
+        "YRV": "YRV"
+    }
+}
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:60 - 
+Status Code: 200 is verified.
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:63 - 
+The Schema of Response is verified.
+
+
+2020-01-19 11:06:37 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get main-types list for a manufacturer                                                    
+***************************************************************************************************
+
+
+2020-01-19 11:06:37 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get built-dates list of cars                                             
++***************************************************************************************************
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/built-dates with manufacturer endpoint is launched.
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:73 - 
+Manufacturer Code: 210 and Main Type: Feroza are  passed. 
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:75 - 
+Manufacturer Dates:
+{
+    "wkda": {
+        "1989": "1989",
+        "1990": "1990",
+        "1991": "1991",
+        "1992": "1992",
+        "1993": "1993",
+        "1994": "1994",
+        "1995": "1995",
+        "1996": "1996",
+        "1997": "1997",
+        "1998": "1998",
+        "1999": "1999",
+        "2000": "2000"
+    }
+}
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:86 - 
+Status Code: 200 is verified.
+
+
+2020-01-19 11:06:37 INFO  AutoRESTAssuredTestSteps:89 - 
+The Schema of Response is verified.
+
+
+2020-01-19 11:06:37 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get built-dates list of cars                                                    
+***************************************************************************************************
+
+
+2020-01-20 10:15:49 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get Manufacturer List                                             
++***************************************************************************************************
+
+
+2020-01-20 10:15:49 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/manufacturer with manufacturer endpoint is launched.
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:32 - Manufacturer List:
+{
+    "page": 0,
+    "pageSize": 2147483647,
+    "totalPageCount": 1,
+    "wkda": {
+        "020": "Abarth",
+        "040": "Alfa Romeo",
+        "042": "Alpina",
+        "057": "Aston Martin",
+        "060": "Audi",
+        "095": "Barkas",
+        "107": "Bentley",
+        "130": "BMW",
+        "125": "Borgward",
+        "145": "Brilliance",
+        "141": "Buick",
+        "150": "Cadillac",
+        "157": "Caterham",
+        "160": "Chevrolet",
+        "170": "Chrysler",
+        "190": "Citroen",
+        "191": "Corvette",
+        "189": "Cupra",
+        "194": "Dacia",
+        "195": "Daewoo",
+        "210": "Daihatsu",
+        "230": "Dodge",
+        "235": "DS Automobiles",
+        "250": "e.GO",
+        "277": "Ferrari",
+        "280": "Fiat",
+        "285": "Ford",
+        "340": "Honda",
+        "345": "Hyundai",
+        "357": "Infiniti",
+        "362": "Isuzu",
+        "365": "Iveco",
+        "380": "Jaguar",
+        "390": "Jeep",
+        "425": "Kia",
+        "460": "Lada",
+        "465": "Lamborghini",
+        "470": "Lancia",
+        "730": "Land Rover",
+        "487": "Lexus",
+        "502": "Lotus",
+        "520": "MAN",
+        "522": "Maserati",
+        "530": "Maybach",
+        "550": "Mazda",
+        "570": "Mercedes-Benz",
+        "070": "MG Rover",
+        "580": "MINI",
+        "590": "Mitsubishi",
+        "225": "Nissan",
+        "650": "Opel",
+        "670": "Peugeot",
+        "895": "Piaggio (Vespa)",
+        "700": "Pontiac",
+        "710": "Porsche",
+        "715": "Proton",
+        "720": "Renault",
+        "727": "Rolls Royce",
+        "071": "Rover",
+        "740": "Saab",
+        "790": "Seat",
+        "800": "Skoda",
+        "560": "Smart",
+        "810": "Ssangyong",
+        "826": "StreetScooter",
+        "820": "Subaru",
+        "830": "Suzuki",
+        "850": "Tata",
+        "853": "Tesla",
+        "860": "Toyota",
+        "865": "Trabant",
+        "870": "Triumph",
+        "905": "Volkswagen",
+        "910": "Volvo",
+        "930": "Wartburg",
+        "935": "Westfield",
+        "960": "Zastava"
+    }
+}
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:35 - 
+Status Code: 200 is verified.
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:38 - 
+The Schema of Response is verified.
+
+
+2020-01-20 10:15:51 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get Manufacturer List                                                    
+***************************************************************************************************
+
+
+2020-01-20 10:15:51 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get main-types list for a manufacturer                                             
++***************************************************************************************************
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/main-types with manufacturer endpoint is launched.
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:47 - 
+Manufacturer Code 210 is  passed: 
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:50 - 
+Manufacturer Details
+{
+    "page": 0,
+    "pageSize": 2147483647,
+    "totalPageCount": 1,
+    "wkda": {
+        "Applause": "Applause",
+        "Charade": "Charade",
+        "Charmant": "Charmant",
+        "Copen": "Copen",
+        "Cuore": "Cuore",
+        "Feroza": "Feroza",
+        "Gran Move": "Gran Move",
+        "Hijet": "Hijet",
+        "Materia": "Materia",
+        "Move": "Move",
+        "Rocky": "Rocky",
+        "Sirion": "Sirion",
+        "Sparcar S 75": "Sparcar S 75",
+        "Sparcar S 76 4WD": "Sparcar S 76 4WD",
+        "Terios": "Terios",
+        "Trevis": "Trevis",
+        "Wildcat 4X4": "Wildcat 4X4",
+        "YRV": "YRV"
+    }
+}
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:60 - 
+Status Code: 200 is verified.
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:63 - 
+The Schema of Response is verified.
+
+
+2020-01-20 10:15:51 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get main-types list for a manufacturer                                                    
+***************************************************************************************************
+
+
+2020-01-20 10:15:51 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get built-dates list of cars                                             
++***************************************************************************************************
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/built-dates with manufacturer endpoint is launched.
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:73 - 
+Manufacturer Code: 210 and Main Type: Feroza are  passed. 
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:75 - 
+Manufacturer Dates:
+{
+    "wkda": {
+        "1989": "1989",
+        "1990": "1990",
+        "1991": "1991",
+        "1992": "1992",
+        "1993": "1993",
+        "1994": "1994",
+        "1995": "1995",
+        "1996": "1996",
+        "1997": "1997",
+        "1998": "1998",
+        "1999": "1999",
+        "2000": "2000"
+    }
+}
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:86 - 
+Status Code: 200 is verified.
+
+
+2020-01-20 10:15:51 INFO  AutoRESTAssuredTestSteps:89 - 
+The Schema of Response is verified.
+
+
+2020-01-20 10:15:51 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get built-dates list of cars                                                    
+***************************************************************************************************
+
+
+2020-01-20 10:16:02 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get Manufacturer List                                             
++***************************************************************************************************
+
+
+2020-01-20 10:16:02 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/manufacturer with manufacturer endpoint is launched.
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:32 - Manufacturer List:
+{
+    "page": 0,
+    "pageSize": 2147483647,
+    "totalPageCount": 1,
+    "wkda": {
+        "020": "Abarth",
+        "040": "Alfa Romeo",
+        "042": "Alpina",
+        "057": "Aston Martin",
+        "060": "Audi",
+        "095": "Barkas",
+        "107": "Bentley",
+        "130": "BMW",
+        "125": "Borgward",
+        "145": "Brilliance",
+        "141": "Buick",
+        "150": "Cadillac",
+        "157": "Caterham",
+        "160": "Chevrolet",
+        "170": "Chrysler",
+        "190": "Citroen",
+        "191": "Corvette",
+        "189": "Cupra",
+        "194": "Dacia",
+        "195": "Daewoo",
+        "210": "Daihatsu",
+        "230": "Dodge",
+        "235": "DS Automobiles",
+        "250": "e.GO",
+        "277": "Ferrari",
+        "280": "Fiat",
+        "285": "Ford",
+        "340": "Honda",
+        "345": "Hyundai",
+        "357": "Infiniti",
+        "362": "Isuzu",
+        "365": "Iveco",
+        "380": "Jaguar",
+        "390": "Jeep",
+        "425": "Kia",
+        "460": "Lada",
+        "465": "Lamborghini",
+        "470": "Lancia",
+        "730": "Land Rover",
+        "487": "Lexus",
+        "502": "Lotus",
+        "520": "MAN",
+        "522": "Maserati",
+        "530": "Maybach",
+        "550": "Mazda",
+        "570": "Mercedes-Benz",
+        "070": "MG Rover",
+        "580": "MINI",
+        "590": "Mitsubishi",
+        "225": "Nissan",
+        "650": "Opel",
+        "670": "Peugeot",
+        "895": "Piaggio (Vespa)",
+        "700": "Pontiac",
+        "710": "Porsche",
+        "715": "Proton",
+        "720": "Renault",
+        "727": "Rolls Royce",
+        "071": "Rover",
+        "740": "Saab",
+        "790": "Seat",
+        "800": "Skoda",
+        "560": "Smart",
+        "810": "Ssangyong",
+        "826": "StreetScooter",
+        "820": "Subaru",
+        "830": "Suzuki",
+        "850": "Tata",
+        "853": "Tesla",
+        "860": "Toyota",
+        "865": "Trabant",
+        "870": "Triumph",
+        "905": "Volkswagen",
+        "910": "Volvo",
+        "930": "Wartburg",
+        "935": "Westfield",
+        "960": "Zastava"
+    }
+}
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:35 - 
+Status Code: 200 is verified.
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:38 - 
+The Schema of Response is verified.
+
+
+2020-01-20 10:16:03 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get Manufacturer List                                                    
+***************************************************************************************************
+
+
+2020-01-20 10:16:03 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get main-types list for a manufacturer                                             
++***************************************************************************************************
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/main-types with manufacturer endpoint is launched.
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:47 - 
+Manufacturer Code 210 is  passed: 
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:50 - 
+Manufacturer Details
+{
+    "page": 0,
+    "pageSize": 2147483647,
+    "totalPageCount": 1,
+    "wkda": {
+        "Applause": "Applause",
+        "Charade": "Charade",
+        "Charmant": "Charmant",
+        "Copen": "Copen",
+        "Cuore": "Cuore",
+        "Feroza": "Feroza",
+        "Gran Move": "Gran Move",
+        "Hijet": "Hijet",
+        "Materia": "Materia",
+        "Move": "Move",
+        "Rocky": "Rocky",
+        "Sirion": "Sirion",
+        "Sparcar S 75": "Sparcar S 75",
+        "Sparcar S 76 4WD": "Sparcar S 76 4WD",
+        "Terios": "Terios",
+        "Trevis": "Trevis",
+        "Wildcat 4X4": "Wildcat 4X4",
+        "YRV": "YRV"
+    }
+}
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:60 - 
+Status Code: 200 is verified.
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:63 - 
+The Schema of Response is verified.
+
+
+2020-01-20 10:16:03 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get main-types list for a manufacturer                                                    
+***************************************************************************************************
+
+
+2020-01-20 10:16:03 INFO  Hook:21 - 
+***************************************************************************************************
+
+         Executing REST Scenario: API Test - Get built-dates list of cars                                             
++***************************************************************************************************
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:21 - 
+URL: http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/built-dates with manufacturer endpoint is launched.
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:73 - 
+Manufacturer Code: 210 and Main Type: Feroza are  passed. 
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:75 - 
+Manufacturer Dates:
+{
+    "wkda": {
+        "1989": "1989",
+        "1990": "1990",
+        "1991": "1991",
+        "1992": "1992",
+        "1993": "1993",
+        "1994": "1994",
+        "1995": "1995",
+        "1996": "1996",
+        "1997": "1997",
+        "1998": "1998",
+        "1999": "1999",
+        "2000": "2000"
+    }
+}
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:86 - 
+Status Code: 200 is verified.
+
+
+2020-01-20 10:16:03 INFO  AutoRESTAssuredTestSteps:89 - 
+The Schema of Response is verified.
+
+
+2020-01-20 10:16:03 INFO  Hook:36 - 
+***************************************************************************************************
+
+        Exiting REST Scenario: API Test - Get built-dates list of cars                                                    
+***************************************************************************************************
+
+
